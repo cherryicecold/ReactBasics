@@ -20,6 +20,7 @@ import ConditionalApp from './conditional/ConditionalApp.js'
 //A:\React\learnreact\src\conditional\ConditionalApp.js
 import LoginApp from './events/LoginApp';
 import FormOneApp from './forms/FormOneApp';
+import MemeApp from './events/LoginApp';
 
 
 ReactDOM.render(
@@ -39,6 +40,7 @@ reactDom.render(<AppEvent/>, document.getElementById('root4'));
 reactDom.render(<CounterEvent/>, document.getElementById('root5'));  //ConditionalApp
 reactDom.render(<LoginApp/>, document.getElementById('root6'));
 reactDom.render(<FormOneApp/>, document.getElementById('root7'));
+reactDom.render(<MemeApp/>, document.getElementById('root8'));
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
