@@ -21,7 +21,7 @@ import ConditionalApp from './conditional/ConditionalApp.js'
 import LoginApp from './events/LoginApp';
 import FormOneApp from './forms/FormOneApp';
 import MemeApp from './events/LoginApp';
-
+//import CountButton from './events.CountButton';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -41,6 +41,7 @@ reactDom.render(<CounterEvent/>, document.getElementById('root5'));  //Condition
 reactDom.render(<LoginApp/>, document.getElementById('root6'));
 reactDom.render(<FormOneApp/>, document.getElementById('root7'));
 reactDom.render(<MemeApp/>, document.getElementById('root8'));
+//reactDom.render(<CountButton incrementBy={10}/>, document.getElementById('root9'));
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
